@@ -1,0 +1,85 @@
+body{
+    background-color: cornflowerblue;
+}
+
+p{
+    font-size: 50%;
+    
+}
+
+.column{
+    width:50%;
+    background-color: coral;
+}
+h2{
+    font-size: 50%;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: rgb(164, 142, 142);
+}
+
+
+@media (min-width:768px){
+  body{
+      background-color: darksalmon;
+  }
+
+  p{
+      font-size: 50px;
+      color: darkblue;
+  }
+
+  nav ul li{
+      display: inline-block;
+      background-color: rgb(164, 142, 142);
+  }
+
+  a{
+      text-decoration: none;
+      color:aliceblue;
+      padding: 14px 16px;
+      display: block;
+      float: left;
+  }
+
+  .column{
+      width: 100%;
+      background-color: deepskyblue;
+  }
+}
+
+@media(max-width:700px) and (min-width:400px){
+
+    .lorem{
+        color:crimson
+    }
+}
+
+@media(min-width:850px){
+    .column{
+        width: 50%;
+        background-color: white;
+    }
+    /*enlaces no visitados*/
+    a:link{
+        color:blue;
+    }
+    /*enlaces visitados*/
+    a:visited{
+        color:purple
+    }
+    /*mouse*/
+    a:hover{
+        background: pink;
+    }
+    /*enlaces activos*/
+    a:active{
+        color:white;
+    }
+   
+}
+
+
+
